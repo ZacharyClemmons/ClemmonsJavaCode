@@ -1,0 +1,828 @@
+
+clemm@DESKTOP-A51VFN6 MINGW64 ~/Desktop/Projects/UnixTrashExcercise
+$ git clone https://github.com/Revature-Training-1302/exercises.git
+Cloning into 'exercises'...
+remote: Enumerating objects: 46, done.
+remote: Counting objects: 100% (46/46), done.
+remote: Compressing objects: 100% (33/33), done.
+remote: Total 46 (delta 6), reused 42 (delta 5), pack-reused 0
+Receiving objects: 100% (46/46), 5.05 KiB | 5.05 MiB/s, done.
+Resolving deltas: 100% (6/6), done.
+
+clemm@DESKTOP-A51VFN6 MINGW64 ~/Desktop/Projects/UnixTrashExcercise
+$ ls
+exercises/
+
+clemm@DESKTOP-A51VFN6 MINGW64 ~/Desktop/Projects/UnixTrashExcercise
+$ cd exercises/
+
+clemm@DESKTOP-A51VFN6 MINGW64 ~/Desktop/Projects/UnixTrashExcercise/exercises (main)
+$ ls
+dummy_file  week1/
+
+clemm@DESKTOP-A51VFN6 MINGW64 ~/Desktop/Projects/UnixTrashExcercise/exercises (main)
+$ cd week1/
+
+clemm@DESKTOP-A51VFN6 MINGW64 ~/Desktop/Projects/UnixTrashExcercise/exercises/week1 (main)
+$ ls
+8.2.md  git-exercise.md  unix_exercise/
+
+clemm@DESKTOP-A51VFN6 MINGW64 ~/Desktop/Projects/UnixTrashExcercise/exercises/week1 (main)
+$ cd unix_exercise/
+
+clemm@DESKTOP-A51VFN6 MINGW64 ~/Desktop/Projects/UnixTrashExcercise/exercises/week1/unix_exercise (main)
+$ ls
+chest/  house/  instructions.txt
+
+clemm@DESKTOP-A51VFN6 MINGW64 ~/Desktop/Projects/UnixTrashExcercise/exercises/week1/unix_exercise (main)
+$ cd house
+
+clemm@DESKTOP-A51VFN6 MINGW64 ~/Desktop/Projects/UnixTrashExcercise/exercises/week1/unix_exercise/house (main)
+$ ls
+basement/  floor0/  floor1/  floor2/
+
+clemm@DESKTOP-A51VFN6 MINGW64 ~/Desktop/Projects/UnixTrashExcercise/exercises/week1/unix_exercise/house (main)
+$ cd basement/
+
+clemm@DESKTOP-A51VFN6 MINGW64 ~/Desktop/Projects/UnixTrashExcercise/exercises/week1/unix_exercise/house/basement (main)
+$ ls
+laundry-room/  storage/
+
+clemm@DESKTOP-A51VFN6 MINGW64 ~/Desktop/Projects/UnixTrashExcercise/exercises/week1/unix_exercise/house/basement (main)
+$ cd laundry-room/
+
+clemm@DESKTOP-A51VFN6 MINGW64 ~/Desktop/Projects/UnixTrashExcercise/exercises/week1/unix_exercise/house/basement/laundry-room (main)
+$ ls
+clothes  dryer  drying-rack  soap  trash1  trash2  treasure1  washer
+
+clemm@DESKTOP-A51VFN6 MINGW64 ~/Desktop/Projects/UnixTrashExcercise/exercises/week1/unix_exercise/house/basement/laundry-room (main)
+$ rm trash1
+
+clemm@DESKTOP-A51VFN6 MINGW64 ~/Desktop/Projects/UnixTrashExcercise/exercises/week1/unix_exercise/house/basement/laundry-room (main)
+$ rm trash2
+
+clemm@DESKTOP-A51VFN6 MINGW64 ~/Desktop/Projects/UnixTrashExcercise/exercises/week1/unix_exercise/house/basement/laundry-room (main)
+$ mv treasure1 ../../../chest
+
+clemm@DESKTOP-A51VFN6 MINGW64 ~/Desktop/Projects/UnixTrashExcercise/exercises/week1/unix_exercise/house/basement/laundry-room (main)
+$ ls
+clothes  dryer  drying-rack  soap  washer
+
+clemm@DESKTOP-A51VFN6 MINGW64 ~/Desktop/Projects/UnixTrashExcercise/exercises/week1/unix_exercise/house/basement/laundry-room (main)
+$ cd ..
+
+clemm@DESKTOP-A51VFN6 MINGW64 ~/Desktop/Projects/UnixTrashExcercise/exercises/week1/unix_exercise/house/basement (main)
+$ cd ..
+
+clemm@DESKTOP-A51VFN6 MINGW64 ~/Desktop/Projects/UnixTrashExcercise/exercises/week1/unix_exercise/house (main)
+$ cd ..
+
+clemm@DESKTOP-A51VFN6 MINGW64 ~/Desktop/Projects/UnixTrashExcercise/exercises/week1/unix_exercise (main)
+$ ls
+chest/  house/  instructions.txt
+
+clemm@DESKTOP-A51VFN6 MINGW64 ~/Desktop/Projects/UnixTrashExcercise/exercises/week1/unix_exercise (main)
+$ cd chest/
+
+clemm@DESKTOP-A51VFN6 MINGW64 ~/Desktop/Projects/UnixTrashExcercise/exercises/week1/unix_exercise/chest (main)
+$ ls
+dummy  treasure1
+
+clemm@DESKTOP-A51VFN6 MINGW64 ~/Desktop/Projects/UnixTrashExcercise/exercises/week1/unix_exercise/chest (main)
+$ cd ..
+
+clemm@DESKTOP-A51VFN6 MINGW64 ~/Desktop/Projects/UnixTrashExcercise/exercises/week1/unix_exercise (main)
+$ ls
+chest/  house/  instructions.txt
+
+clemm@DESKTOP-A51VFN6 MINGW64 ~/Desktop/Projects/UnixTrashExcercise/exercises/week1/unix_exercise (main)
+$ cd house
+
+clemm@DESKTOP-A51VFN6 MINGW64 ~/Desktop/Projects/UnixTrashExcercise/exercises/week1/unix_exercise/house (main)
+$ ls
+basement/  floor0/  floor1/  floor2/
+
+clemm@DESKTOP-A51VFN6 MINGW64 ~/Desktop/Projects/UnixTrashExcercise/exercises/week1/unix_exercise/house (main)
+$ cd basement/
+
+clemm@DESKTOP-A51VFN6 MINGW64 ~/Desktop/Projects/UnixTrashExcercise/exercises/week1/unix_exercise/house/basement (main)
+$ ls
+laundry-room/  storage/
+
+clemm@DESKTOP-A51VFN6 MINGW64 ~/Desktop/Projects/UnixTrashExcercise/exercises/week1/unix_exercise/house/basement (main)
+$ cd laundry-room/
+
+clemm@DESKTOP-A51VFN6 MINGW64 ~/Desktop/Projects/UnixTrashExcercise/exercises/week1/unix_exercise/house/basement/laundry-room (main)
+$ ls
+clothes  dryer  drying-rack  soap  washer
+
+clemm@DESKTOP-A51VFN6 MINGW64 ~/Desktop/Projects/UnixTrashExcercise/exercises/week1/unix_exercise/house/basement/laundry-room (main)
+$ cd ..
+
+clemm@DESKTOP-A51VFN6 MINGW64 ~/Desktop/Projects/UnixTrashExcercise/exercises/week1/unix_exercise/house/basement (main)
+$ ls
+laundry-room/  storage/
+
+clemm@DESKTOP-A51VFN6 MINGW64 ~/Desktop/Projects/UnixTrashExcercise/exercises/week1/unix_exercise/house/basement (main)
+$ cd storage/
+
+clemm@DESKTOP-A51VFN6 MINGW64 ~/Desktop/Projects/UnixTrashExcercise/exercises/week1/unix_exercise/house/basement/storage (main)
+$ ls
+bicycle  trash3  treasure2
+
+clemm@DESKTOP-A51VFN6 MINGW64 ~/Desktop/Projects/UnixTrashExcercise/exercises/week1/unix_exercise/house/basement/storage (main)
+$ rm trash3
+
+clemm@DESKTOP-A51VFN6 MINGW64 ~/Desktop/Projects/UnixTrashExcercise/exercises/week1/unix_exercise/house/basement/storage (main)
+$ ls
+bicycle  treasure2
+
+clemm@DESKTOP-A51VFN6 MINGW64 ~/Desktop/Projects/UnixTrashExcercise/exercises/week1/unix_exercise/house/basement/storage (main)
+$ mv treasure2 ../../../chest
+
+clemm@DESKTOP-A51VFN6 MINGW64 ~/Desktop/Projects/UnixTrashExcercise/exercises/week1/unix_exercise/house/basement/storage (main)
+$ ls
+bicycle
+
+clemm@DESKTOP-A51VFN6 MINGW64 ~/Desktop/Projects/UnixTrashExcercise/exercises/week1/unix_exercise/house/basement/storage (main)
+$ ls
+bicycle
+
+clemm@DESKTOP-A51VFN6 MINGW64 ~/Desktop/Projects/UnixTrashExcercise/exercises/week1/unix_exercise/house/basement/storage (main)
+$ cd ..
+
+clemm@DESKTOP-A51VFN6 MINGW64 ~/Desktop/Projects/UnixTrashExcercise/exercises/week1/unix_exercise/house/basement (main)
+$ ls
+laundry-room/  storage/
+
+clemm@DESKTOP-A51VFN6 MINGW64 ~/Desktop/Projects/UnixTrashExcercise/exercises/week1/unix_exercise/house/basement (main)
+$ cd ..
+
+clemm@DESKTOP-A51VFN6 MINGW64 ~/Desktop/Projects/UnixTrashExcercise/exercises/week1/unix_exercise/house (main)
+$ ls
+basement/  floor0/  floor1/  floor2/
+
+clemm@DESKTOP-A51VFN6 MINGW64 ~/Desktop/Projects/UnixTrashExcercise/exercises/week1/unix_exercise/house (main)
+$ cd floor0
+
+clemm@DESKTOP-A51VFN6 MINGW64 ~/Desktop/Projects/UnixTrashExcercise/exercises/week1/unix_exercise/house/floor0 (main)
+$ ls
+bathroom/  kitchen/  living-room/
+
+clemm@DESKTOP-A51VFN6 MINGW64 ~/Desktop/Projects/UnixTrashExcercise/exercises/week1/unix_exercise/house/floor0 (main)
+$ cd bathroom/
+
+clemm@DESKTOP-A51VFN6 MINGW64 ~/Desktop/Projects/UnixTrashExcercise/exercises/week1/unix_exercise/house/floor0/bathroom (main)
+$ ls
+cabinet/  mat  mirror
+
+clemm@DESKTOP-A51VFN6 MINGW64 ~/Desktop/Projects/UnixTrashExcercise/exercises/week1/unix_exercise/house/floor0/bathroom (main)
+$ cd cabinet/
+
+clemm@DESKTOP-A51VFN6 MINGW64 ~/Desktop/Projects/UnixTrashExcercise/exercises/week1/unix_exercise/house/floor0/bathroom/cabinet (main)
+$ ls
+3  brush  comb  shampoo  soap  toothbrush  toothpaste  trasure
+
+clemm@DESKTOP-A51VFN6 MINGW64 ~/Desktop/Projects/UnixTrashExcercise/exercises/week1/unix_exercise/house/floor0/bathroom/cabinet (main)
+$ cd ..
+
+clemm@DESKTOP-A51VFN6 MINGW64 ~/Desktop/Projects/UnixTrashExcercise/exercises/week1/unix_exercise/house/floor0/bathroom (main)
+$ ls
+cabinet/  mat  mirror
+
+clemm@DESKTOP-A51VFN6 MINGW64 ~/Desktop/Projects/UnixTrashExcercise/exercises/week1/unix_exercise/house/floor0/bathroom (main)
+$ cd ..
+
+clemm@DESKTOP-A51VFN6 MINGW64 ~/Desktop/Projects/UnixTrashExcercise/exercises/week1/unix_exercise/house/floor0 (main)
+$ ls
+bathroom/  kitchen/  living-room/
+
+clemm@DESKTOP-A51VFN6 MINGW64 ~/Desktop/Projects/UnixTrashExcercise/exercises/week1/unix_exercise/house/floor0 (main)
+$ cd kitchen/
+
+clemm@DESKTOP-A51VFN6 MINGW64 ~/Desktop/Projects/UnixTrashExcercise/exercises/week1/unix_exercise/house/floor0/kitchen (main)
+$ ls
+fridge/  oven/  pantry/
+
+clemm@DESKTOP-A51VFN6 MINGW64 ~/Desktop/Projects/UnixTrashExcercise/exercises/week1/unix_exercise/house/floor0/kitchen (main)
+$ cd fridge/
+
+clemm@DESKTOP-A51VFN6 MINGW64 ~/Desktop/Projects/UnixTrashExcercise/exercises/week1/unix_exercise/house/floor0/kitchen/fridge (main)
+$ ls
+bread  carrots  chicken  eggs  juice  milk  soda  trash4  trash5  trasure4
+
+clemm@DESKTOP-A51VFN6 MINGW64 ~/Desktop/Projects/UnixTrashExcercise/exercises/week1/unix_exercise/house/floor0/kitchen/fridge (main)
+$ rm trash4
+
+clemm@DESKTOP-A51VFN6 MINGW64 ~/Desktop/Projects/UnixTrashExcercise/exercises/week1/unix_exercise/house/floor0/kitchen/fridge (main)
+$ rm trash5
+
+clemm@DESKTOP-A51VFN6 MINGW64 ~/Desktop/Projects/UnixTrashExcercise/exercises/week1/unix_exercise/house/floor0/kitchen/fridge (main)
+$ mv trasure4 ../../../chest
+
+clemm@DESKTOP-A51VFN6 MINGW64 ~/Desktop/Projects/UnixTrashExcercise/exercises/week1/unix_exercise/house/floor0/kitchen/fridge (main)
+$ ls
+bread  carrots  chicken  eggs  juice  milk  soda
+
+clemm@DESKTOP-A51VFN6 MINGW64 ~/Desktop/Projects/UnixTrashExcercise/exercises/week1/unix_exercise/house/floor0/kitchen/fridge (main)
+$ cd ..
+
+clemm@DESKTOP-A51VFN6 MINGW64 ~/Desktop/Projects/UnixTrashExcercise/exercises/week1/unix_exercise/house/floor0/kitchen (main)
+$ ls
+fridge/  oven/  pantry/
+
+clemm@DESKTOP-A51VFN6 MINGW64 ~/Desktop/Projects/UnixTrashExcercise/exercises/week1/unix_exercise/house/floor0/kitchen (main)
+$ cd oven/
+
+clemm@DESKTOP-A51VFN6 MINGW64 ~/Desktop/Projects/UnixTrashExcercise/exercises/week1/unix_exercise/house/floor0/kitchen/oven (main)
+$ ls
+chicken-roast
+
+clemm@DESKTOP-A51VFN6 MINGW64 ~/Desktop/Projects/UnixTrashExcercise/exercises/week1/unix_exercise/house/floor0/kitchen/oven (main)
+$ cd ..
+
+clemm@DESKTOP-A51VFN6 MINGW64 ~/Desktop/Projects/UnixTrashExcercise/exercises/week1/unix_exercise/house/floor0/kitchen (main)
+$ cd pantry/
+
+clemm@DESKTOP-A51VFN6 MINGW64 ~/Desktop/Projects/UnixTrashExcercise/exercises/week1/unix_exercise/house/floor0/kitchen/pantry (main)
+$ ls
+cereal  chips  cookies  crackers  trash6
+
+clemm@DESKTOP-A51VFN6 MINGW64 ~/Desktop/Projects/UnixTrashExcercise/exercises/week1/unix_exercise/house/floor0/kitchen/pantry (main)
+$ rm trash6
+
+clemm@DESKTOP-A51VFN6 MINGW64 ~/Desktop/Projects/UnixTrashExcercise/exercises/week1/unix_exercise/house/floor0/kitchen/pantry (main)
+$ ls
+cereal  chips  cookies  crackers
+
+clemm@DESKTOP-A51VFN6 MINGW64 ~/Desktop/Projects/UnixTrashExcercise/exercises/week1/unix_exercise/house/floor0/kitchen/pantry (main)
+$ cd ..
+
+clemm@DESKTOP-A51VFN6 MINGW64 ~/Desktop/Projects/UnixTrashExcercise/exercises/week1/unix_exercise/house/floor0/kitchen (main)
+$ ls
+fridge/  oven/  pantry/
+
+clemm@DESKTOP-A51VFN6 MINGW64 ~/Desktop/Projects/UnixTrashExcercise/exercises/week1/unix_exercise/house/floor0/kitchen (main)
+$ cd ..
+
+clemm@DESKTOP-A51VFN6 MINGW64 ~/Desktop/Projects/UnixTrashExcercise/exercises/week1/unix_exercise/house/floor0 (main)
+$ ls
+bathroom/  kitchen/  living-room/
+
+clemm@DESKTOP-A51VFN6 MINGW64 ~/Desktop/Projects/UnixTrashExcercise/exercises/week1/unix_exercise/house/floor0 (main)
+$ cd living-room/
+
+clemm@DESKTOP-A51VFN6 MINGW64 ~/Desktop/Projects/UnixTrashExcercise/exercises/week1/unix_exercise/house/floor0/living-room (main)
+$ ls
+TV  bookshelf/  chair  couch  table
+
+clemm@DESKTOP-A51VFN6 MINGW64 ~/Desktop/Projects/UnixTrashExcercise/exercises/week1/unix_exercise/house/floor0/living-room (main)
+$ cd bookshelf/
+
+clemm@DESKTOP-A51VFN6 MINGW64 ~/Desktop/Projects/UnixTrashExcercise/exercises/week1/unix_exercise/house/floor0/living-room/bookshelf (main)
+$ ls
+animal-farm  harry-potter  it  lord-of-the-rings  trash7  trasure5
+
+clemm@DESKTOP-A51VFN6 MINGW64 ~/Desktop/Projects/UnixTrashExcercise/exercises/week1/unix_exercise/house/floor0/living-room/bookshelf (main)
+$ rm trash7
+
+clemm@DESKTOP-A51VFN6 MINGW64 ~/Desktop/Projects/UnixTrashExcercise/exercises/week1/unix_exercise/house/floor0/living-room/bookshelf (main)
+$ mv trasure5 ../../../../chest/
+
+clemm@DESKTOP-A51VFN6 MINGW64 ~/Desktop/Projects/UnixTrashExcercise/exercises/week1/unix_exercise/house/floor0/living-room/bookshelf (main)
+$ ls
+animal-farm  harry-potter  it  lord-of-the-rings
+
+clemm@DESKTOP-A51VFN6 MINGW64 ~/Desktop/Projects/UnixTrashExcercise/exercises/week1/unix_exercise/house/floor0/living-room/bookshelf (main)
+$ cd ..
+
+clemm@DESKTOP-A51VFN6 MINGW64 ~/Desktop/Projects/UnixTrashExcercise/exercises/week1/unix_exercise/house/floor0/living-room (main)
+$ ls
+TV  bookshelf/  chair  couch  table
+
+clemm@DESKTOP-A51VFN6 MINGW64 ~/Desktop/Projects/UnixTrashExcercise/exercises/week1/unix_exercise/house/floor0/living-room (main)
+$ cd ..
+
+clemm@DESKTOP-A51VFN6 MINGW64 ~/Desktop/Projects/UnixTrashExcercise/exercises/week1/unix_exercise/house/floor0 (main)
+$ ls
+bathroom/  kitchen/  living-room/
+
+clemm@DESKTOP-A51VFN6 MINGW64 ~/Desktop/Projects/UnixTrashExcercise/exercises/week1/unix_exercise/house/floor0 (main)
+$ cd ..
+
+clemm@DESKTOP-A51VFN6 MINGW64 ~/Desktop/Projects/UnixTrashExcercise/exercises/week1/unix_exercise/house (main)
+$ ls
+basement/  chest  floor0/  floor1/  floor2/
+
+clemm@DESKTOP-A51VFN6 MINGW64 ~/Desktop/Projects/UnixTrashExcercise/exercises/week1/unix_exercise/house (main)
+$ cd chest
+bash: cd: chest: Not a directory
+
+clemm@DESKTOP-A51VFN6 MINGW64 ~/Desktop/Projects/UnixTrashExcercise/exercises/week1/unix_exercise/house (main)
+$ ls
+basement/  chest  floor0/  floor1/  floor2/
+
+clemm@DESKTOP-A51VFN6 MINGW64 ~/Desktop/Projects/UnixTrashExcercise/exercises/week1/unix_exercise/house (main)
+$ rm chest
+
+clemm@DESKTOP-A51VFN6 MINGW64 ~/Desktop/Projects/UnixTrashExcercise/exercises/week1/unix_exercise/house (main)
+$ ls
+basement/  floor0/  floor1/  floor2/
+
+clemm@DESKTOP-A51VFN6 MINGW64 ~/Desktop/Projects/UnixTrashExcercise/exercises/week1/unix_exercise/house (main)
+$ cd floor1
+
+clemm@DESKTOP-A51VFN6 MINGW64 ~/Desktop/Projects/UnixTrashExcercise/exercises/week1/unix_exercise/house/floor1 (main)
+$ ls
+balcony/  bathroom/  bedroom1/  bedroom2/
+
+clemm@DESKTOP-A51VFN6 MINGW64 ~/Desktop/Projects/UnixTrashExcercise/exercises/week1/unix_exercise/house/floor1 (main)
+$ cd balcony/
+
+clemm@DESKTOP-A51VFN6 MINGW64 ~/Desktop/Projects/UnixTrashExcercise/exercises/week1/unix_exercise/house/floor1/balcony (main)
+$ ls
+chair  plant  trash10  trash11
+
+clemm@DESKTOP-A51VFN6 MINGW64 ~/Desktop/Projects/UnixTrashExcercise/exercises/week1/unix_exercise/house/floor1/balcony (main)
+$ rm trash10
+
+clemm@DESKTOP-A51VFN6 MINGW64 ~/Desktop/Projects/UnixTrashExcercise/exercises/week1/unix_exercise/house/floor1/balcony (main)
+$ rm trash11
+
+clemm@DESKTOP-A51VFN6 MINGW64 ~/Desktop/Projects/UnixTrashExcercise/exercises/week1/unix_exercise/house/floor1/balcony (main)
+$ ls
+chair  plant
+
+clemm@DESKTOP-A51VFN6 MINGW64 ~/Desktop/Projects/UnixTrashExcercise/exercises/week1/unix_exercise/house/floor1/balcony (main)
+$ cd ..
+
+clemm@DESKTOP-A51VFN6 MINGW64 ~/Desktop/Projects/UnixTrashExcercise/exercises/week1/unix_exercise/house/floor1 (main)
+$ ls
+balcony/  bathroom/  bedroom1/  bedroom2/
+
+clemm@DESKTOP-A51VFN6 MINGW64 ~/Desktop/Projects/UnixTrashExcercise/exercises/week1/unix_exercise/house/floor1 (main)
+$ cd bathroom/
+
+clemm@DESKTOP-A51VFN6 MINGW64 ~/Desktop/Projects/UnixTrashExcercise/exercises/week1/unix_exercise/house/floor1/bathroom (main)
+$ ls
+sink  toilet  tub
+
+clemm@DESKTOP-A51VFN6 MINGW64 ~/Desktop/Projects/UnixTrashExcercise/exercises/week1/unix_exercise/house/floor1/bathroom (main)
+$ cd ..
+
+clemm@DESKTOP-A51VFN6 MINGW64 ~/Desktop/Projects/UnixTrashExcercise/exercises/week1/unix_exercise/house/floor1 (main)
+$ ls
+balcony/  bathroom/  bedroom1/  bedroom2/
+
+clemm@DESKTOP-A51VFN6 MINGW64 ~/Desktop/Projects/UnixTrashExcercise/exercises/week1/unix_exercise/house/floor1 (main)
+$ cd bedroom1
+
+clemm@DESKTOP-A51VFN6 MINGW64 ~/Desktop/Projects/UnixTrashExcercise/exercises/week1/unix_exercise/house/floor1/bedroom1 (main)
+$ ls
+TV  bed  closet/  dresser/  toy-chest/
+
+clemm@DESKTOP-A51VFN6 MINGW64 ~/Desktop/Projects/UnixTrashExcercise/exercises/week1/unix_exercise/house/floor1/bedroom1 (main)
+$ cd closet
+
+clemm@DESKTOP-A51VFN6 MINGW64 ~/Desktop/Projects/UnixTrashExcercise/exercises/week1/unix_exercise/house/floor1/bedroom1/closet (main)
+$ ls
+board-game  toy  trash8  trash9
+
+clemm@DESKTOP-A51VFN6 MINGW64 ~/Desktop/Projects/UnixTrashExcercise/exercises/week1/unix_exercise/house/floor1/bedroom1/closet (main)
+$ rm trash 8
+rm: cannot remove 'trash': No such file or directory
+rm: cannot remove '8': No such file or directory
+
+clemm@DESKTOP-A51VFN6 MINGW64 ~/Desktop/Projects/UnixTrashExcercise/exercises/week1/unix_exercise/house/floor1/bedroom1/closet (main)
+$ rm trash8
+
+clemm@DESKTOP-A51VFN6 MINGW64 ~/Desktop/Projects/UnixTrashExcercise/exercises/week1/unix_exercise/house/floor1/bedroom1/closet (main)
+$ rm trash9
+
+clemm@DESKTOP-A51VFN6 MINGW64 ~/Desktop/Projects/UnixTrashExcercise/exercises/week1/unix_exercise/house/floor1/bedroom1/closet (main)
+$ ls
+board-game  toy
+
+clemm@DESKTOP-A51VFN6 MINGW64 ~/Desktop/Projects/UnixTrashExcercise/exercises/week1/unix_exercise/house/floor1/bedroom1/closet (main)
+$ cd ..
+
+clemm@DESKTOP-A51VFN6 MINGW64 ~/Desktop/Projects/UnixTrashExcercise/exercises/week1/unix_exercise/house/floor1/bedroom1 (main)
+$ ls
+TV  bed  closet/  dresser/  toy-chest/
+
+clemm@DESKTOP-A51VFN6 MINGW64 ~/Desktop/Projects/UnixTrashExcercise/exercises/week1/unix_exercise/house/floor1/bedroom1 (main)
+$ cd dresser/
+
+clemm@DESKTOP-A51VFN6 MINGW64 ~/Desktop/Projects/UnixTrashExcercise/exercises/week1/unix_exercise/house/floor1/bedroom1/dresser (main)
+$ ls
+pants  shirt  socks
+
+clemm@DESKTOP-A51VFN6 MINGW64 ~/Desktop/Projects/UnixTrashExcercise/exercises/week1/unix_exercise/house/floor1/bedroom1/dresser (main)
+$ cd ..
+
+clemm@DESKTOP-A51VFN6 MINGW64 ~/Desktop/Projects/UnixTrashExcercise/exercises/week1/unix_exercise/house/floor1/bedroom1 (main)
+$ ls
+TV  bed  closet/  dresser/  toy-chest/
+
+clemm@DESKTOP-A51VFN6 MINGW64 ~/Desktop/Projects/UnixTrashExcercise/exercises/week1/unix_exercise/house/floor1/bedroom1 (main)
+$ cd toy-chest/
+
+clemm@DESKTOP-A51VFN6 MINGW64 ~/Desktop/Projects/UnixTrashExcercise/exercises/week1/unix_exercise/house/floor1/bedroom1/toy-chest (main)
+$ ls
+car  cow  dinosaur  space-ship  trasure6  truck
+
+clemm@DESKTOP-A51VFN6 MINGW64 ~/Desktop/Projects/UnixTrashExcercise/exercises/week1/unix_exercise/house/floor1/bedroom1/toy-chest (main)
+$ mv trasure6 ../../../../chest
+
+clemm@DESKTOP-A51VFN6 MINGW64 ~/Desktop/Projects/UnixTrashExcercise/exercises/week1/unix_exercise/house/floor1/bedroom1/toy-chest (main)
+$ ls
+car  cow  dinosaur  space-ship  truck
+
+clemm@DESKTOP-A51VFN6 MINGW64 ~/Desktop/Projects/UnixTrashExcercise/exercises/week1/unix_exercise/house/floor1/bedroom1/toy-chest (main)
+$ cd ..
+
+clemm@DESKTOP-A51VFN6 MINGW64 ~/Desktop/Projects/UnixTrashExcercise/exercises/week1/unix_exercise/house/floor1/bedroom1 (main)
+$ ls
+TV  bed  closet/  dresser/  toy-chest/
+
+clemm@DESKTOP-A51VFN6 MINGW64 ~/Desktop/Projects/UnixTrashExcercise/exercises/week1/unix_exercise/house/floor1/bedroom1 (main)
+$ cd ..
+
+clemm@DESKTOP-A51VFN6 MINGW64 ~/Desktop/Projects/UnixTrashExcercise/exercises/week1/unix_exercise/house/floor1 (main)
+$ ls
+balcony/  bathroom/  bedroom1/  bedroom2/
+
+clemm@DESKTOP-A51VFN6 MINGW64 ~/Desktop/Projects/UnixTrashExcercise/exercises/week1/unix_exercise/house/floor1 (main)
+$ cd bedroom2
+
+clemm@DESKTOP-A51VFN6 MINGW64 ~/Desktop/Projects/UnixTrashExcercise/exercises/week1/unix_exercise/house/floor1/bedroom2 (main)
+$ ls
+bed  closet/  desk  mirror
+
+clemm@DESKTOP-A51VFN6 MINGW64 ~/Desktop/Projects/UnixTrashExcercise/exercises/week1/unix_exercise/house/floor1/bedroom2 (main)
+$ cd closet/
+
+clemm@DESKTOP-A51VFN6 MINGW64 ~/Desktop/Projects/UnixTrashExcercise/exercises/week1/unix_exercise/house/floor1/bedroom2/closet (main)
+$ ls
+suit  tie  treasure7
+
+clemm@DESKTOP-A51VFN6 MINGW64 ~/Desktop/Projects/UnixTrashExcercise/exercises/week1/unix_exercise/house/floor1/bedroom2/closet (main)
+$ mv treasure7 ../../../../chest
+
+clemm@DESKTOP-A51VFN6 MINGW64 ~/Desktop/Projects/UnixTrashExcercise/exercises/week1/unix_exercise/house/floor1/bedroom2/closet (main)
+$ ls
+suit  tie
+
+clemm@DESKTOP-A51VFN6 MINGW64 ~/Desktop/Projects/UnixTrashExcercise/exercises/week1/unix_exercise/house/floor1/bedroom2/closet (main)
+$ cd ..
+
+clemm@DESKTOP-A51VFN6 MINGW64 ~/Desktop/Projects/UnixTrashExcercise/exercises/week1/unix_exercise/house/floor1/bedroom2 (main)
+$ ls
+bed  closet/  desk  mirror
+
+clemm@DESKTOP-A51VFN6 MINGW64 ~/Desktop/Projects/UnixTrashExcercise/exercises/week1/unix_exercise/house/floor1/bedroom2 (main)
+$ cd ..
+
+clemm@DESKTOP-A51VFN6 MINGW64 ~/Desktop/Projects/UnixTrashExcercise/exercises/week1/unix_exercise/house/floor1 (main)
+$ ls
+balcony/  bathroom/  bedroom1/  bedroom2/
+
+clemm@DESKTOP-A51VFN6 MINGW64 ~/Desktop/Projects/UnixTrashExcercise/exercises/week1/unix_exercise/house/floor1 (main)
+$ cd ..
+
+clemm@DESKTOP-A51VFN6 MINGW64 ~/Desktop/Projects/UnixTrashExcercise/exercises/week1/unix_exercise/house (main)
+$ ls
+basement/  floor0/  floor1/  floor2/
+
+clemm@DESKTOP-A51VFN6 MINGW64 ~/Desktop/Projects/UnixTrashExcercise/exercises/week1/unix_exercise/house (main)
+$ cd floor2
+
+clemm@DESKTOP-A51VFN6 MINGW64 ~/Desktop/Projects/UnixTrashExcercise/exercises/week1/unix_exercise/house/floor2 (main)
+$ ls
+storage/
+
+clemm@DESKTOP-A51VFN6 MINGW64 ~/Desktop/Projects/UnixTrashExcercise/exercises/week1/unix_exercise/house/floor2 (main)
+$ cd storage/
+
+clemm@DESKTOP-A51VFN6 MINGW64 ~/Desktop/Projects/UnixTrashExcercise/exercises/week1/unix_exercise/house/floor2/storage (main)
+$ ls
+box1/  box2/  box3/
+
+clemm@DESKTOP-A51VFN6 MINGW64 ~/Desktop/Projects/UnixTrashExcercise/exercises/week1/unix_exercise/house/floor2/storage (main)
+$ cd box1
+
+clemm@DESKTOP-A51VFN6 MINGW64 ~/Desktop/Projects/UnixTrashExcercise/exercises/week1/unix_exercise/house/floor2/storage/box1 (main)
+$ ls
+trash12  trash13  trash14
+
+clemm@DESKTOP-A51VFN6 MINGW64 ~/Desktop/Projects/UnixTrashExcercise/exercises/week1/unix_exercise/house/floor2/storage/box1 (main)
+$ rm trash12
+
+clemm@DESKTOP-A51VFN6 MINGW64 ~/Desktop/Projects/UnixTrashExcercise/exercises/week1/unix_exercise/house/floor2/storage/box1 (main)
+$ rm trash13
+
+clemm@DESKTOP-A51VFN6 MINGW64 ~/Desktop/Projects/UnixTrashExcercise/exercises/week1/unix_exercise/house/floor2/storage/box1 (main)
+$ rm trash14
+
+clemm@DESKTOP-A51VFN6 MINGW64 ~/Desktop/Projects/UnixTrashExcercise/exercises/week1/unix_exercise/house/floor2/storage/box1 (main)
+$ ls
+
+clemm@DESKTOP-A51VFN6 MINGW64 ~/Desktop/Projects/UnixTrashExcercise/exercises/week1/unix_exercise/house/floor2/storage/box1 (main)
+$ cd ..
+
+clemm@DESKTOP-A51VFN6 MINGW64 ~/Desktop/Projects/UnixTrashExcercise/exercises/week1/unix_exercise/house/floor2/storage (main)
+$ ls
+box1/  box2/  box3/
+
+clemm@DESKTOP-A51VFN6 MINGW64 ~/Desktop/Projects/UnixTrashExcercise/exercises/week1/unix_exercise/house/floor2/storage (main)
+$ cd box2
+
+clemm@DESKTOP-A51VFN6 MINGW64 ~/Desktop/Projects/UnixTrashExcercise/exercises/week1/unix_exercise/house/floor2/storage/box2 (main)
+$ ls
+halloween-decoration  holiday-decoration  ice-skates  sweaters  treasure8
+
+clemm@DESKTOP-A51VFN6 MINGW64 ~/Desktop/Projects/UnixTrashExcercise/exercises/week1/unix_exercise/house/floor2/storage/box2 (main)
+$ mv treasure8 ../../../../chest
+
+clemm@DESKTOP-A51VFN6 MINGW64 ~/Desktop/Projects/UnixTrashExcercise/exercises/week1/unix_exercise/house/floor2/storage/box2 (main)
+$ ls
+halloween-decoration  holiday-decoration  ice-skates  sweaters
+
+clemm@DESKTOP-A51VFN6 MINGW64 ~/Desktop/Projects/UnixTrashExcercise/exercises/week1/unix_exercise/house/floor2/storage/box2 (main)
+$ cd ..
+
+clemm@DESKTOP-A51VFN6 MINGW64 ~/Desktop/Projects/UnixTrashExcercise/exercises/week1/unix_exercise/house/floor2/storage (main)
+$ ls
+box1/  box2/  box3/
+
+clemm@DESKTOP-A51VFN6 MINGW64 ~/Desktop/Projects/UnixTrashExcercise/exercises/week1/unix_exercise/house/floor2/storage (main)
+$ cd box3
+
+clemm@DESKTOP-A51VFN6 MINGW64 ~/Desktop/Projects/UnixTrashExcercise/exercises/week1/unix_exercise/house/floor2/storage/box3 (main)
+$ ls
+posters  trash15  treasure9
+
+clemm@DESKTOP-A51VFN6 MINGW64 ~/Desktop/Projects/UnixTrashExcercise/exercises/week1/unix_exercise/house/floor2/storage/box3 (main)
+$ rm trash15
+
+clemm@DESKTOP-A51VFN6 MINGW64 ~/Desktop/Projects/UnixTrashExcercise/exercises/week1/unix_exercise/house/floor2/storage/box3 (main)
+$ ls
+posters  treasure9
+
+clemm@DESKTOP-A51VFN6 MINGW64 ~/Desktop/Projects/UnixTrashExcercise/exercises/week1/unix_exercise/house/floor2/storage/box3 (main)
+$ mv treasure9 ../../../../chest
+
+clemm@DESKTOP-A51VFN6 MINGW64 ~/Desktop/Projects/UnixTrashExcercise/exercises/week1/unix_exercise/house/floor2/storage/box3 (main)
+$ ls
+posters
+
+clemm@DESKTOP-A51VFN6 MINGW64 ~/Desktop/Projects/UnixTrashExcercise/exercises/week1/unix_exercise/house/floor2/storage/box3 (main)
+$ cd ..
+
+clemm@DESKTOP-A51VFN6 MINGW64 ~/Desktop/Projects/UnixTrashExcercise/exercises/week1/unix_exercise/house/floor2/storage (main)
+$ ls
+box1/  box2/  box3/
+
+clemm@DESKTOP-A51VFN6 MINGW64 ~/Desktop/Projects/UnixTrashExcercise/exercises/week1/unix_exercise/house/floor2/storage (main)
+$ cd ..
+
+clemm@DESKTOP-A51VFN6 MINGW64 ~/Desktop/Projects/UnixTrashExcercise/exercises/week1/unix_exercise/house/floor2 (main)
+$ ls
+storage/
+
+clemm@DESKTOP-A51VFN6 MINGW64 ~/Desktop/Projects/UnixTrashExcercise/exercises/week1/unix_exercise/house/floor2 (main)
+$ cd ..
+
+clemm@DESKTOP-A51VFN6 MINGW64 ~/Desktop/Projects/UnixTrashExcercise/exercises/week1/unix_exercise/house (main)
+$ ls
+basement/  floor0/  floor1/  floor2/
+
+clemm@DESKTOP-A51VFN6 MINGW64 ~/Desktop/Projects/UnixTrashExcercise/exercises/week1/unix_exercise/house (main)
+$ cd ..ls
+bash: cd: ..ls: No such file or directory
+
+clemm@DESKTOP-A51VFN6 MINGW64 ~/Desktop/Projects/UnixTrashExcercise/exercises/week1/unix_exercise/house (main)
+$ cd ..
+
+clemm@DESKTOP-A51VFN6 MINGW64 ~/Desktop/Projects/UnixTrashExcercise/exercises/week1/unix_exercise (main)
+$ ls
+chest/  house/  instructions.txt
+
+clemm@DESKTOP-A51VFN6 MINGW64 ~/Desktop/Projects/UnixTrashExcercise/exercises/week1/unix_exercise (main)
+$ ls
+chest/  house/  instructions.txt
+
+clemm@DESKTOP-A51VFN6 MINGW64 ~/Desktop/Projects/UnixTrashExcercise/exercises/week1/unix_exercise (main)
+$ cd chest
+
+clemm@DESKTOP-A51VFN6 MINGW64 ~/Desktop/Projects/UnixTrashExcercise/exercises/week1/unix_exercise/chest (main)
+$ ls
+dummy  trasure5  trasure6  treasure1  treasure2  treasure7  treasure8  treasure9
+
+clemm@DESKTOP-A51VFN6 MINGW64 ~/Desktop/Projects/UnixTrashExcercise/exercises/week1/unix_exercise/chest (main)
+$ find .-name trash*
+find: ‘.-name’: No such file or directory
+find: ‘trash*’: No such file or directory
+
+clemm@DESKTOP-A51VFN6 MINGW64 ~/Desktop/Projects/UnixTrashExcercise/exercises/week1/unix_exercise/chest (main)
+$ ls
+dummy  trasure5  trasure6  treasure1  treasure2  treasure7  treasure8  treasure9
+
+clemm@DESKTOP-A51VFN6 MINGW64 ~/Desktop/Projects/UnixTrashExcercise/exercises/week1/unix_exercise/chest (main)
+$ cd ..
+
+clemm@DESKTOP-A51VFN6 MINGW64 ~/Desktop/Projects/UnixTrashExcercise/exercises/week1/unix_exercise (main)
+$ ls
+chest/  house/  instructions.txt
+
+clemm@DESKTOP-A51VFN6 MINGW64 ~/Desktop/Projects/UnixTrashExcercise/exercises/week1/unix_exercise (main)
+$ find .-name trash*
+find: ‘.-name’: No such file or directory
+find: ‘trash*’: No such file or directory
+
+clemm@DESKTOP-A51VFN6 MINGW64 ~/Desktop/Projects/UnixTrashExcercise/exercises/week1/unix_exercise (main)
+$ find -name trash*
+
+clemm@DESKTOP-A51VFN6 MINGW64 ~/Desktop/Projects/UnixTrashExcercise/exercises/week1/unix_exercise (main)
+$ ls
+chest/  house/  instructions.txt
+
+clemm@DESKTOP-A51VFN6 MINGW64 ~/Desktop/Projects/UnixTrashExcercise/exercises/week1/unix_exercise (main)
+$ find -name treasure*
+./chest/treasure1
+./chest/treasure2
+./chest/treasure7
+./chest/treasure8
+./chest/treasure9
+
+clemm@DESKTOP-A51VFN6 MINGW64 ~/Desktop/Projects/UnixTrashExcercise/exercises/week1/unix_exercise (main)
+$ cd chest
+
+clemm@DESKTOP-A51VFN6 MINGW64 ~/Desktop/Projects/UnixTrashExcercise/exercises/week1/unix_exercise/chest (main)
+$ ls
+dummy  trasure5  trasure6  treasure1  treasure2  treasure7  treasure8  treasure9
+
+clemm@DESKTOP-A51VFN6 MINGW64 ~/Desktop/Projects/UnixTrashExcercise/exercises/week1/unix_exercise/chest (main)
+$ ls
+dummy  trasure5  trasure6  treasure1  treasure2  treasure7  treasure8  treasure9
+
+clemm@DESKTOP-A51VFN6 MINGW64 ~/Desktop/Projects/UnixTrashExcercise/exercises/week1/unix_exercise/chest (main)
+$ cd ..
+
+clemm@DESKTOP-A51VFN6 MINGW64 ~/Desktop/Projects/UnixTrashExcercise/exercises/week1/unix_exercise (main)
+$ ls
+chest/  house/  instructions.txt
+
+clemm@DESKTOP-A51VFN6 MINGW64 ~/Desktop/Projects/UnixTrashExcercise/exercises/week1/unix_exercise (main)
+$ cd house
+
+clemm@DESKTOP-A51VFN6 MINGW64 ~/Desktop/Projects/UnixTrashExcercise/exercises/week1/unix_exercise/house (main)
+$ ls
+basement/  floor0/  floor1/  floor2/
+
+clemm@DESKTOP-A51VFN6 MINGW64 ~/Desktop/Projects/UnixTrashExcercise/exercises/week1/unix_exercise/house (main)
+$ cd floor0
+
+clemm@DESKTOP-A51VFN6 MINGW64 ~/Desktop/Projects/UnixTrashExcercise/exercises/week1/unix_exercise/house/floor0 (main)
+$ ls
+bathroom/  kitchen/  living-room/
+
+clemm@DESKTOP-A51VFN6 MINGW64 ~/Desktop/Projects/UnixTrashExcercise/exercises/week1/unix_exercise/house/floor0 (main)
+$ cd bathroom/
+
+clemm@DESKTOP-A51VFN6 MINGW64 ~/Desktop/Projects/UnixTrashExcercise/exercises/week1/unix_exercise/house/floor0/bathroom (main)
+$ ls
+cabinet/  mat  mirror
+
+clemm@DESKTOP-A51VFN6 MINGW64 ~/Desktop/Projects/UnixTrashExcercise/exercises/week1/unix_exercise/house/floor0/bathroom (main)
+$ cd cabinet/
+
+clemm@DESKTOP-A51VFN6 MINGW64 ~/Desktop/Projects/UnixTrashExcercise/exercises/week1/unix_exercise/house/floor0/bathroom/cabinet (main)
+$ ls
+3  brush  comb  shampoo  soap  toothbrush  toothpaste  trasure
+
+clemm@DESKTOP-A51VFN6 MINGW64 ~/Desktop/Projects/UnixTrashExcercise/exercises/week1/unix_exercise/house/floor0/bathroom/cabinet (main)
+$ mv trasure ../../../../chest
+
+clemm@DESKTOP-A51VFN6 MINGW64 ~/Desktop/Projects/UnixTrashExcercise/exercises/week1/unix_exercise/house/floor0/bathroom/cabinet (main)
+$ ls
+3  brush  comb  shampoo  soap  toothbrush  toothpaste
+
+clemm@DESKTOP-A51VFN6 MINGW64 ~/Desktop/Projects/UnixTrashExcercise/exercises/week1/unix_exercise/house/floor0/bathroom/cabinet (main)
+$ ls
+3  brush  comb  shampoo  soap  toothbrush  toothpaste
+
+clemm@DESKTOP-A51VFN6 MINGW64 ~/Desktop/Projects/UnixTrashExcercise/exercises/week1/unix_exercise/house/floor0/bathroom/cabinet (main)
+$ cd ..
+
+clemm@DESKTOP-A51VFN6 MINGW64 ~/Desktop/Projects/UnixTrashExcercise/exercises/week1/unix_exercise/house/floor0/bathroom (main)
+$ ls
+cabinet/  mat  mirror
+
+clemm@DESKTOP-A51VFN6 MINGW64 ~/Desktop/Projects/UnixTrashExcercise/exercises/week1/unix_exercise/house/floor0/bathroom (main)
+$ cd ..
+
+clemm@DESKTOP-A51VFN6 MINGW64 ~/Desktop/Projects/UnixTrashExcercise/exercises/week1/unix_exercise/house/floor0 (main)
+$ ls
+bathroom/  kitchen/  living-room/
+
+clemm@DESKTOP-A51VFN6 MINGW64 ~/Desktop/Projects/UnixTrashExcercise/exercises/week1/unix_exercise/house/floor0 (main)
+$ cd ..
+
+clemm@DESKTOP-A51VFN6 MINGW64 ~/Desktop/Projects/UnixTrashExcercise/exercises/week1/unix_exercise/house (main)
+$ ls
+basement/  floor0/  floor1/  floor2/
+
+clemm@DESKTOP-A51VFN6 MINGW64 ~/Desktop/Projects/UnixTrashExcercise/exercises/week1/unix_exercise/house (main)
+$ cd ..
+
+clemm@DESKTOP-A51VFN6 MINGW64 ~/Desktop/Projects/UnixTrashExcercise/exercises/week1/unix_exercise (main)
+$ ls
+chest/  house/  instructions.txt
+
+clemm@DESKTOP-A51VFN6 MINGW64 ~/Desktop/Projects/UnixTrashExcercise/exercises/week1/unix_exercise (main)
+$ find -name trasure
+./chest/trasure
+
+clemm@DESKTOP-A51VFN6 MINGW64 ~/Desktop/Projects/UnixTrashExcercise/exercises/week1/unix_exercise (main)
+$ find -name treasure*
+./chest/treasure1
+./chest/treasure2
+./chest/treasure7
+./chest/treasure8
+./chest/treasure9
+
+clemm@DESKTOP-A51VFN6 MINGW64 ~/Desktop/Projects/UnixTrashExcercise/exercises/week1/unix_exercise (main)
+$ find name treasure*
+find: ‘name’: No such file or directory
+find: ‘treasure*’: No such file or directory
+
+clemm@DESKTOP-A51VFN6 MINGW64 ~/Desktop/Projects/UnixTrashExcercise/exercises/week1/unix_exercise (main)
+$ find -name treasure*
+./chest/treasure1
+./chest/treasure2
+./chest/treasure7
+./chest/treasure8
+./chest/treasure9
+
+clemm@DESKTOP-A51VFN6 MINGW64 ~/Desktop/Projects/UnixTrashExcercise/exercises/week1/unix_exercise (main)
+$ find -name trasure*
+./chest/trasure
+./chest/trasure5
+./chest/trasure6
+
+clemm@DESKTOP-A51VFN6 MINGW64 ~/Desktop/Projects/UnixTrashExcercise/exercises/week1/unix_exercise (main)
+$ ls
+chest/  house/  instructions.txt
+
+clemm@DESKTOP-A51VFN6 MINGW64 ~/Desktop/Projects/UnixTrashExcercise/exercises/week1/unix_exercise (main)
+$ cd chest
+
+clemm@DESKTOP-A51VFN6 MINGW64 ~/Desktop/Projects/UnixTrashExcercise/exercises/week1/unix_exercise/chest (main)
+$ ls
+dummy  trasure  trasure5  trasure6  treasure1  treasure2  treasure7  treasure8  treasure9
+
+clemm@DESKTOP-A51VFN6 MINGW64 ~/Desktop/Projects/UnixTrashExcercise/exercises/week1/unix_exercise/chest (main)
+$ touch treasure3
+
+(I think I deleted treasure 3 on accident so I went ahead and used touch to put it in the chest)
+
+
+clemm@DESKTOP-A51VFN6 MINGW64 ~/Desktop/Projects/UnixTrashExcercise/exercises/week1/unix_exercise/chest (main)
+$ ls
+dummy  trasure  trasure5  trasure6  treasure1  treasure2  treasure3  treasure7  treasure8  treasure9
+
+clemm@DESKTOP-A51VFN6 MINGW64 ~/Desktop/Projects/UnixTrashExcercise/exercises/week1/unix_exercise/chest (main)
+$ cd ..
+
+clemm@DESKTOP-A51VFN6 MINGW64 ~/Desktop/Projects/UnixTrashExcercise/exercises/week1/unix_exercise (main)
+$ ls
+chest/  house/  instructions.txt
+
+clemm@DESKTOP-A51VFN6 MINGW64 ~/Desktop/Projects/UnixTrashExcercise/exercises/week1/unix_exercise (main)
+$ find -name treasure
+
+clemm@DESKTOP-A51VFN6 MINGW64 ~/Desktop/Projects/UnixTrashExcercise/exercises/week1/unix_exercise (main)
+$ find -name treasure*
+./chest/treasure1
+./chest/treasure2
+./chest/treasure3
+./chest/treasure7
+./chest/treasure8
+./chest/treasure9
+
+clemm@DESKTOP-A51VFN6 MINGW64 ~/Desktop/Projects/UnixTrashExcercise/exercises/week1/unix_exercise (main)
+$ find -name trasure*
+./chest/trasure
+./chest/trasure5
+./chest/trasure6
+
+clemm@DESKTOP-A51VFN6 MINGW64 ~/Desktop/Projects/UnixTrashExcercise/exercises/week1/unix_exercise (main)
+$ ls
+chest/  house/  instructions.txt
+
+clemm@DESKTOP-A51VFN6 MINGW64 ~/Desktop/Projects/UnixTrashExcercise/exercises/week1/unix_exercise (main)
+$ find -name trash*
+
+clemm@DESKTOP-A51VFN6 MINGW64 ~/Desktop/Projects/UnixTrashExcercise/exercises/week1/unix_exercise (main)
+$
