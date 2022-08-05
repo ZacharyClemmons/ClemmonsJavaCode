@@ -1,3 +1,5 @@
+import java.sql.SQLOutput;
+
 public class Superhero {
     //declare variables
     String firstName;
@@ -24,6 +26,23 @@ public class Superhero {
         this.lastName=lastName;
         this.retired=retired;
 
+    }
+    public void attack()
+    {
+        System.out.println(firstName+"  attack power is  "+strengthLevel);
+    }
+    public void retired() {
+        if ( retired = true){
+            System.out.println(retired + "" + firstName + "  is retired");
+        }
+        else
+        {
+            System.out.println(firstName + "Is not retired");
+        }
+    }
+    public void superpower()
+    {
+        System.out.println("The superpower for "+ firstName+ " is "+ superPower);
     }
 
     //override
