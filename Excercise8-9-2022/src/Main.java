@@ -7,8 +7,11 @@ public class Main {
 
         civic.getWeight();
         civic.setWheels(5);
+        civic.setColor("Brown");
+        //overloaded
+        civic.setColor("Orange", "Red");
         System.out.println(civic.getWheels());
-
+        System.out.println(civic.getColors());
         civic.printer();
     }
 }
