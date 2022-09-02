@@ -18,7 +18,7 @@ import java.util.List;
 
 public class EmployeeServlet extends HttpServlet {
 
-    // register, but also logging in:
+    // register and login
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         PrintWriter out = resp.getWriter();
@@ -77,14 +77,11 @@ public class EmployeeServlet extends HttpServlet {
         // try to get the person id from the session:
         int employeeId;
         try {
-            // trying to access the session and get the id of the current logged in user:
             employeeId = (Integer) req.getSession().getAttribute("id");
         } catch (Exception e) {
-            // if we don't get the id, we send a 401 (authentication) error
             resp.sendError(401, "Must be logged in to view assigned tickets");
             return;
         }
-        // Otherwise, get the pet that we want to update (using the id from the session)
         List<Employee> employees = employeeService.getAllEmployees(employeeId);
 
         for(Employee employee: employees) {
@@ -93,23 +90,18 @@ public class EmployeeServlet extends HttpServlet {
 
     }
 
-    // adopt a pet (updating the pet table)
     @Override
     protected void doPut(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         PrintWriter out = resp.getWriter();
         EmployeeService employeeService = new EmployeeService();
         TicketService ticketService = new TicketService();
 
-        // some variables to store our person id and the pet id:
         int employeeId;
         int ticketId;
-        // try to get the employee id from the logged in user in the session:
         try {
-            //session id stored in employeeId
             employeeId = (Integer) req.getSession().getAttribute("id");
 
         } catch (Exception e) {
-            // if we don't get the id, we send a 401 (authentication) error
             resp.sendError(401, "Must be logged in to assign tickets.");
             return;
         }
