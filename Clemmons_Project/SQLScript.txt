@@ -1,0 +1,5 @@
+create table tickets (id serial primary key, owner_id int, name varchar(50), description varchar(50), amount int, status boolean,processed boolean);
+
+create table employees (id serial primary key, managerStatus boolean, name varchar(50) unique, password varchar(50));
+
+alter table employees alter column managerstatus set default 'false';
