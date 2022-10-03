@@ -1,0 +1,18 @@
+
+    What feature/aspect of your project are you most proud of?
+    Im most proud of the login and register section. I had some weird bugs implementing the login portion so it was nice to see it finally working.
+
+    What are some challenges you faced while working on the project?
+    Communicating with the team efficiently was a major challenge in the beginning as we didn't set up a good system.  However, we were able to get things going a bit into the project.
+
+    What would you work on if you had another week on project 2?
+    If I had another week to work on project 2 then I would mainly fix the features that weren't working such as the checkout and the AWS.
+
+    What would you do differently if you could start the project over?
+    Start quickly and commmunicate with the team more efficiently.  Took a bit to get things going smoothly. In particular the github repository system we were using was a mess at first.
+
+    What do you wish you knew at the start of the project (either about the development process or the technologies used)?
+    More about how to use the git flow and branches properly, we had some strange issues pulling and cloning the repositories.
+
+    How can you apply these lessons to project 3?
+    In project 3 I can use the lessons I learned from the second project in order to increase productivity as well as get things planned out much quicker and more efficiently.
